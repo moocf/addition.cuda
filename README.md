@@ -17,6 +17,12 @@ operators along with various math functions.
 5. Free the space we had occupied (we are good people).
 ```
 
+```bash
+# OUTPUT
+a = 1, b = 2
+a + b = 3 (GPU)
+```
+
 See [main.cu] for code.
 
 [main.cu]: main.cu
