@@ -23,9 +23,10 @@ a = 1, b = 2
 a + b = 3 (GPU)
 ```
 
-See [main.cu] for code.
+See [main.cu] for code, [main.ipynb] for notebook.
 
 [main.cu]: main.cu
+[main.ipynb]: https://colab.research.google.com/drive/1kXU6McTQy6oXSt4pplir0x7o8o4HrP0q?usp=sharing
 
 
 ### references
