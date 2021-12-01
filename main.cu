@@ -1,7 +1,4 @@
-#include <cuda_runtime.h>
-#include <device_launch_parameters.h>
-#include <stdio.h>
-#include "support.h"
+#include "src/main.hxx"
 
 
 // The kernel recieves 3 arguments, the first being global address (GPU) of
@@ -28,5 +25,6 @@ int main() {
   TRY( cudaFree(cDevice) );        // 5
   printf("a = %d, b = %d\n", a, b);
   printf("a + b = %d (GPU)\n", cHost);
+  printf("\n");
   return 0;
 }
