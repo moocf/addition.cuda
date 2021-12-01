@@ -18,17 +18,21 @@ operators along with various math functions.
 ```
 
 ```bash
-# OUTPUT
-a = 1, b = 2
-a + b = 3 (GPU)
+$ nvcc -std=c++17 -Xcompiler -O3 main.cu
+$ ./a.out
+
+# a = 1, b = 2
+# a + b = 3 (GPU)
 ```
 
-See [main.cu] for code, [main.ipynb] for notebook.
+See [main.cu] for code.
 
 [main.cu]: main.cu
-[main.ipynb]: https://colab.research.google.com/drive/1kXU6McTQy6oXSt4pplir0x7o8o4HrP0q?usp=sharing
+
+<br>
+<br>
 
 
-### references
+## References
 
-- [CUDA by Example :: Jason Sanders, Edward Kandrot](http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf)
+- [CUDA by Example :: Jason Sanders, Edward Kandrot](https://gist.github.com/wolfram77/72c51e494eaaea1c21a9c4021ad0f320)
